@@ -13,9 +13,9 @@ import xml.etree.ElementTree as ET
 
 #####
 
-german_MWs_path = r'/Users/lars/Library/CloudStorage/OneDrive-Personal/Education/Uni_HD/MorSpra/Morallexika/Moralwörter-FINAL.xlsx'
-english_MWs_path = r'/Users/lars/Library/CloudStorage/OneDrive-Personal/Education/Uni_HD/MorSpra/Morallexika/Morallexikon Englisch final.xlsx'
-french_MWs_path = r'/Users/lars/Library/CloudStorage/OneDrive-Personal/Education/Uni_HD/MorSpra/Morallexika/Morallexikon Franzo_sisch final.xlsx'
+german_MWs_path = r'path/to/german_Morallexikon.xlsx'
+english_MWs_path = r'path/to/english_Morallexikon.xlsx'
+french_MWs_path = r'path/to/french_Morallexikon.xlsx'
 
 # read in MWs files with ALL sheets as dict
 df_ger_mw = pd.read_excel(german_MWs_path, sheet_name=None, header=None)
